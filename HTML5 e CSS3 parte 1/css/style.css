@@ -103,7 +103,7 @@ form{
 }
 
 
-form label, form p{
+form label, form legend, p{
     display: block;
     margin: 10px 0;
     font-size: 20px;
@@ -118,4 +118,36 @@ form label, form p{
 
 .checkbox{
     margin: 30px 0;
+}
+
+.enviar{
+    width: 40%;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 30px; 
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: greenyellow;
+    transform: scale(1.05);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
 }
