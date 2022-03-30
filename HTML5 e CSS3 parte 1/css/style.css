@@ -25,12 +25,13 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-
+    transition: 0.5s all;
 }
 
-nav a:hover{
-    color: rgb(231, 198, 8);
+nav a:hover{    
+    color: rgb(231, 198, 8);    
 }
+
 nav a:active{
     color: rgb(10, 175, 10);
 }
@@ -55,6 +56,7 @@ nav a:active{
 
 .produtos li:hover{
     border-color: rgb(231, 198, 8);
+    transition: 0.5s all;
 }
 
 .produtos li:hover h2{
@@ -91,11 +93,6 @@ footer{
     font-size: 13px;
     color: aliceblue;
     margin-top: 30px;
-}
-
-main{
-    width: 940px;
-    margin: 0 auto;
 }
 
 form{
